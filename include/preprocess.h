@@ -14,8 +14,10 @@ which is included as part of this source code package.
 #define PREPROCESS_H_
 
 #include "common_lib.h"
-#include <livox_ros_driver/CustomMsg.h>
+#include <livox_ros_driver2/CustomMsg.h>
 #include <pcl_conversions/pcl_conversions.h>
+
+namespace livox_ros_driver = livox_ros_driver2;
 
 using namespace std;
 

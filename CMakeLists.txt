@@ -91,6 +91,7 @@ find_package(catkin REQUIRED COMPONENTS
   vikit_ros
   cv_bridge
   image_transport
+  livox_ros_driver2
 )
 
 find_package(Eigen3 REQUIRED)
@@ -98,8 +99,6 @@ find_package(PCL REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(Sophus REQUIRED)
 find_package(Boost REQUIRED COMPONENTS thread)
-
-set(Sophus_LIBRARIES libSophus.so)
 
 # Define the catkin package
 catkin_package(
